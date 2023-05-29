@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#stories{
+    position: absolute;
+width:100%;
+height:100px;
+display: flex;
+gap:10px;
+    }
+
+    #stories #story{
+        width:60px;
+        height:60px;
+        border-radius:50%;
+        background:linear-gradient(rgb(244, 2, 127),rgb(234, 44, 44),rgba(242, 170, 35, 0.925));
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+   #story #inner{
+
+       width:89%;
+       height:89%;
+       border-radius:50% ;
+    overflow: hidden;
+    }
+#inner img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+#fs{
+    position:absolute;
+    display:none;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    background-color: rgba(69, 61, 61, 0.361);
+    background-color: aliceblue;
+    overflow: hidden;
+}
+#fs #center{
+    position: relative;
+    width:30%;
+    height:100%;
+background-color:#fff;
+background-size: cover;
+}
+#center #progress1{
+    position:relative;
+    width:100%;
+    height:100%
+}
+#progress{
+    position: absolute;
+    width:100%;
+    height:6px;
+    background-color:rgba(0, 0, 0, 0.377) ;
+}
+#progressmaker
+{
+   width:0%;
+   height:6px;
+   background-color: #fff;
+}
+#center #btm{
+    position: absolute;
+    bottom: 0;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:50px;
+
+}
+#btm #btmB{
+width:80%;
+height:100%;
+margin-left: 30px;
+border:2px solid rgb(196, 191, 191);
+background-color: transparent;
+border-top-left-radius: 1000px;
+border-top-right-radius: 1000px;
+border-bottom-left-radius: 1000px;
+border-bottom-right-radius: 1000px;
+}
+#btmB p{position: absolute;
+    top:50%;
+    left:50%;transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-family: "Gilroy";
+    color:black ;
+}
+#Btm i{
+    color:rgba(0, 0, 0, 0.459);
+}
